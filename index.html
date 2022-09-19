@@ -269,8 +269,11 @@
 
 
 				<!-- Contact Form Section start -->
+				<h2 class="text-center">Contact Me</h2>
+
 				<div class="d-flex d-block justify-content-center">
 					<div class="col-lg-4 col-md-8 col-sm-12 bg-light text-secondary p-3 rounded">	
+
 						<form>
 							<div class="form-group">
 								<label for="name">Name</label>
@@ -300,6 +303,33 @@
 								<label for="exampleFormControlTextarea1">Example textarea</label>
 								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 							</div>
+
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-dark text-light" data-toggle="modal" data-target="#exampleModal">
+								  Send Email
+								</button>
+
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								  <div class="modal-dialog">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <h5 class="modal-title" id="exampleModalLabel">Thank You for Contacting us!</h5>
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								          <span aria-hidden="true">&times;</span>
+								        </button>
+								      </div>
+								      <div class="modal-body">
+								        Message Successfully
+								      </div>
+								      <div class="modal-footer">
+								        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								        <button type="button" class="btn btn-primary">Save changes</button>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+
 						</form>
 
 					</div>
